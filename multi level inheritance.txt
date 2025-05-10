@@ -1,0 +1,14 @@
+#multi level inheritance
+class person:
+    def name(self):
+        print('name....')
+class teacher(person):
+    def qualification(self):
+        print('phd')
+class hod(teacher):
+    def exp(self):
+        print('experience.......15years ')
+obj=hod()
+obj.name()
+obj.qualification()
+obj.exp()
